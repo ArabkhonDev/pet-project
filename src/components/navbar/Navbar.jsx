@@ -1,12 +1,9 @@
-import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import './navbar.css'
 
 const Navbar = () => {
   return (
     <div>
-      <Link to="/">Home</Link>
-      <Link to="/contact">Contact</Link>
-      <Outlet />
+      navbar
     </div>
   )
 }

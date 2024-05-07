@@ -1,10 +1,11 @@
 import {Routes, Route, BrowserRouter} from 'react-router-dom'
 import './App.css'
-import NoPages from './pages/home/NoPages';
+import NoPages from './pages/noPage/NoPages';
 import Home from './pages/home/Home';
 import OurTeam from './pages/ourteam/OurTeam';
 import Contact from './pages/contact/Contact';
 import Carousel from './components/carousel/Carousel';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -23,13 +24,7 @@ function App() {
       </BrowserRouter> 
       */}
       
-      
-      <Carousel />
-      <Contact />
-      <OurTeam />
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Home />
     </>
   )
 }
