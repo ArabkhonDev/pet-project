@@ -1,13 +1,13 @@
-import './App.css'
-import Home from './site/agrar/pages/home/Home'
+import "./App.css";
+import Allroute from "./routes/Allroute";
+
 
 function App() {
-
   return (
     <>
-      <Home />
+     <Allroute />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

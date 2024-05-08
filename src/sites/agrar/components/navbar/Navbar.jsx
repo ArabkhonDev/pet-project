@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa";
 
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -15,12 +16,18 @@ const Navbar = () => {
         <div className="container">
           <div className="nav_main">
             <div className="navbar_logo">
+              <Link to='/'>
               <span>Agrar Universitet</span>
+              </Link>
             </div>
             <div className="navbar_links">
               <div className="navbar_links_items">
+                <Link to='/bimm'>
                 <p>BIMM</p>
-                <p>About</p>
+                </Link>
+                <Link to='about'>
+                  <p>About</p>
+                </Link>
                 <div class="navbar_links_dropdown">
                   <button class="dropbtn">Manbalar</button>
                   <div class="dropdown-content">
