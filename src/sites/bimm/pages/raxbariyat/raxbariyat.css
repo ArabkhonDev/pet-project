@@ -1,0 +1,30 @@
+.raxbariyat{
+    min-height: 400px;
+}
+
+.raxbariyat_main{
+    padding: 15px 0px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.raxbariyat_worker_info{
+    box-shadow: 0px 0px 2px 2px red;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 44px;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.raxbariyat_worker_info  a{
+    color: #000;
+    padding: 10px 15px;
+    transition: all ease .5s;
+}
+.raxbariyat_worker_info  a:hover{
+    color: #fff;
+    background-color: green;
+}

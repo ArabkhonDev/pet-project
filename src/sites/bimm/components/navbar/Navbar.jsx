@@ -5,7 +5,7 @@ import {
   FaPinterestP,
   FaSearch,
 } from "react-icons/fa";
-import {IoMenu} from 'react-icons/io5'
+import { IoMenu } from "react-icons/io5";
 
 import "./navbar.css";
 import { Link, NavLink } from "react-router-dom";
@@ -26,38 +26,37 @@ const Navbar = () => {
                 <Link to="/">
                   <p>Agrar</p>
                 </Link>
-                
+
                 <div class="navbar_links_dropdown">
                   <button class="dropbtn">BIMM</button>
                   <div class="dropdown-content">
-                  <Link to='/bimmabout'>Markaz xaqida</Link>
-                  <Link to='/bimmraxbariyat'>Raxbariyat</Link>
-                  <Link to='/'>Markaz tuzilmasi</Link>
-                  <Link to='/'>Markaz apparat</Link>
-                  <Link to='/'>Malaka oshirish markazi</Link>
-                  <Link to='/'>Gender tenglik</Link>
+                    <Link to="/bimmabout">Markaz xaqida</Link>
+                    <Link to="/raxbariyat">Raxbariyat</Link>
+                    <Link to="#">Markaz tuzilmasi</Link>
+                    <Link to="#">Markaz apparat</Link>
+                    <Link to="#">Malaka oshirish markazi</Link>
+                    <Link to="#">Gender tenglik</Link>
+                    <Link to="#">Contact</Link>
                   </div>
                 </div>
                 <div class="navbar_links_dropdown">
                   <button class="dropbtn">Axborot Xizmati</button>
                   <div class="dropdown-content">
-                    <a href="#"> Yangilik</a>
-                    <a href="#"> Ommaviy tadbirlar</a>
-                    <a href="#">Elonlar</a>
-                    <a href="#">Digital Marketing</a>
+                    <Link to="#"> Yangilik</Link>
+                    <Link to="#"> Ommaviy tadbirlar</Link>
+                    <Link to="#">Elonlar</Link>
+                    <Link to="#">Savol va javob</Link>
                   </div>
                 </div>
                 <div class="navbar_links_dropdown">
                   <button class="dropbtn">Hujjatlar</button>
                   <div class="dropdown-content">
-                    <a href="#">Qonunlar</a>
-                    <a href="#">Prezident qaror va namoyishlar</a>
-                    <a href="#">Elonlar</a>
-                    <a href="#">Contact</a>
+                    <Link to="#">Qonunlar</Link>
+                    <Link to="#">Prezident qaror va namoyishlar</Link>
+                    <Link to="#">Hukumat qaror va farmonlari</Link>
                   </div>
                 </div>
                 <p>Blog</p>
-            
               </div>
             </div>
             <div className="navbar_contact_icon_links">
@@ -74,22 +73,32 @@ const Navbar = () => {
                 </form>
               </div>
               <div className="navbar_link_icons">
-                <li>
-                  <FaFacebookF />
-                </li>
-                <li>
-                  <FaTwitter />
-                </li>
-                <li>
-                  <FaGooglePlusG />
-                </li>
-                <li>
-                  <FaPinterestP />
-                </li>
+                <Link to="#" target="_blank">
+                  <li>
+                    <FaFacebookF />
+                  </li>
+                </Link>
+                <Link to="#" target="_blank">
+                  <li>
+                    <FaTwitter />
+                  </li>
+                </Link>
+                <Link to="#" target="_blank">
+                  <li>
+                    <FaGooglePlusG />
+                  </li>
+                </Link>
+                <Link to="#" target="_blank">
+                  <li>
+                    <FaPinterestP />
+                  </li>
+                </Link>
               </div>
             </div>
             <div className="menubar">
-              <IoMenu />
+              <Link to="#" target="_blank">
+                <IoMenu />
+              </Link>
             </div>
           </div>
         </div>

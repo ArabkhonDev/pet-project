@@ -1,5 +1,5 @@
 
-export const experience = () => {
+export const Experience = () => {
   return (
     <div>experience</div>
   )

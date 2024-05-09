@@ -1,11 +1,6 @@
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
-// import {MarkazAbout} from '../../components/bimm-about/MarkazAbout'
-
-const About = () => {
+export const About = () => {
   return (
-    <div>
-      <Navbar />
+    <>
       <div className="bimm-about">
         <div className="container">
           <div className="bimm-about_main">
@@ -101,9 +96,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
-    </div>
+    </>
   );
 };
-
-export default About;

@@ -1,5 +1,5 @@
 
-export const task = () => {
+export const Task = () => {
   return (
     <div>task</div>
   )
