@@ -1,8 +1,15 @@
-# React + Vite
+# Pet-project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+`git clone "github link"`
 
-Currently, two official plugins are available:
+`npm install`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`npm run dev`
+
+Bu loyiha Agrar davlat universiteti uchun qilingan demo website
+
+kamchiliklar bolsa xabar bering doim xursand bo'laman
+
+telegram: @arabjon_nishonov
+
+phone: +998949113133
