@@ -20,7 +20,8 @@ const Allroute = () => {
 
         <Route path="/bimm" element={<BimmHome />}>
           <Route path="/bimmabout" element={<BimmAbout />} />
-          {/* <Route path="/raxbariyat" element={<Raxbariyat />} />
+          <Route path="/bimmraxbariyat" element={<Raxbariyat />} />
+          {/* 
           <Route path="/bimmcontact" element={<Bimmcontact />} /> */}
         </Route>
       </Routes>

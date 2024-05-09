@@ -6,6 +6,8 @@ import {
   FaSearch,
 } from "react-icons/fa";
 
+import {IoMenu} from 'react-icons/io5'
+
 import "./navbar.css";
 import { Link } from "react-router-dom";
 
@@ -77,6 +79,9 @@ const Navbar = () => {
                   <FaPinterestP />
                 </li>
               </div>
+            </div>
+            <div className="menubar">
+              <IoMenu />
             </div>
           </div>
         </div>

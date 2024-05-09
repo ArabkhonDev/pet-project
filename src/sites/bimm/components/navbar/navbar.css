@@ -102,3 +102,28 @@ nav {
   cursor: pointer;
 }
 
+.menubar{
+  display: none;
+  align-items: center;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.menubar:hover{
+  cursor: pointer;
+  border-color: transparent;
+}
+
+@media screen and (max-width: 550px){
+  .nav_main, .menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar_links, .navbar_contact_icon_links{
+    display: none;
+  }
+}

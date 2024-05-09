@@ -5,9 +5,10 @@ import {
   FaPinterestP,
   FaSearch,
 } from "react-icons/fa";
+import {IoMenu} from 'react-icons/io5'
 
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -26,23 +27,17 @@ const Navbar = () => {
                   <p>Agrar</p>
                 </Link>
                 
-                <Link to=''></Link>
-                <Link to=''></Link>
-                <Link to=''></Link>
                 <div class="navbar_links_dropdown">
                   <button class="dropbtn">BIMM</button>
                   <div class="dropdown-content">
                   <Link to='/bimmabout'>Markaz xaqida</Link>
-                  <Link to='/raxbariyat'>Raxbariyat</Link>
+                  <Link to='/bimmraxbariyat'>Raxbariyat</Link>
                   <Link to='/'>Markaz tuzilmasi</Link>
                   <Link to='/'>Markaz apparat</Link>
                   <Link to='/'>Malaka oshirish markazi</Link>
                   <Link to='/'>Gender tenglik</Link>
                   </div>
                 </div>
-                <Link to='/bimmcontact'>
-                  <span>Contact</span>
-                </Link>
                 <div class="navbar_links_dropdown">
                   <button class="dropbtn">Axborot Xizmati</button>
                   <div class="dropdown-content">
@@ -58,11 +53,11 @@ const Navbar = () => {
                     <a href="#">Qonunlar</a>
                     <a href="#">Prezident qaror va namoyishlar</a>
                     <a href="#">Elonlar</a>
-                    <a href="#">Digital Marketing</a>
+                    <a href="#">Contact</a>
                   </div>
                 </div>
                 <p>Blog</p>
-                <p>Contact</p>
+            
               </div>
             </div>
             <div className="navbar_contact_icon_links">
@@ -92,6 +87,9 @@ const Navbar = () => {
                   <FaPinterestP />
                 </li>
               </div>
+            </div>
+            <div className="menubar">
+              <IoMenu />
             </div>
           </div>
         </div>

@@ -18,9 +18,12 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .news_item{
+    padding: 15px 10px;
     width: 250px;
     text-align: center;
 }
@@ -42,4 +45,10 @@
 .news_item button:hover{
     background-color: #ccc;
     color: var(--white-color);
+}
+
+@media screen and (max-width:550px) {
+    .news_main_collect_items, .news_item{
+        margin: 0px auto;
+    }
 }

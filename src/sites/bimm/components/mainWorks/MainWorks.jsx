@@ -4,7 +4,6 @@ import './mainWorks.css'
 
 const MainWorks = () => {
   const catalogs = getData();
-  console.log(catalogs);
   return (
     <div className='main_works'>
       <div className="container">
