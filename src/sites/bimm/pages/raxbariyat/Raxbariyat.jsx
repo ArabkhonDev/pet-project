@@ -11,18 +11,17 @@ const Raxbariyat = () => {
       <div className="raxbariyat">
         <div className="container">
           <div className="raxbariyat_main">
-            <div className="raxbariyat_main_contents">
+          <div className="raxbariyat_main_contents">
               <h1>Raxbariyat</h1>
               <div className="raxbariyat_worker_info">
                 <Link to="info">Malumoti</Link>
                 <Link to="experience">Mehnat faoliyati</Link>
                 <Link to="task">Vazifalar</Link>
               </div>
-              
+            <Outlet />
             </div>
           </div>
         </div>
-        <Outlet />
       </div>
       <Footer />
     </>

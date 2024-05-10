@@ -10,8 +10,12 @@
     background-color: rgb(38, 106, 146);
     color: white;
     margin: auto;
-    transform: translate(1300px, 600px);
+    transform: translate(200vh, 90vh);
     font-size: 35px;
     border-radius: 100%;
     padding-left: 2px;
+}
+
+.bimm-about_contents ol li{
+    padding: 15px 0px;
 }
