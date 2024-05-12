@@ -1,85 +1,62 @@
-import { useState } from "react";
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SliderImage1 from "../../assets//img/carousel/bugdoy1.jpg";
+import SliderImage2 from "../../assets//img/carousel/olma2.jpg";
+import SliderImage3 from "../../assets//img/carousel/olma3.jpg";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 import "./carousel.css";
 
-const Carousel = () => {
+// import required modules
+import { Navigation, Pagination } from "swiper/modules";
 
-  // const minusSlide =(n)=>{
-  //   console.log(n);
-  // }
-  // const plusSlides =(n)=>{
-  //   console.log(n);
-  // }
-  // console.log(currentSlide(n));
-  // const [showSlides, setShowSlides] = useState(1);
-  // setShowSlides(showSlides);
-
-  // function plusSlides(n) {
-  //   setShowSlides((showSlides += n));
-  // }
-
-  // function currentSlide(n) {
-  //   setShowSlides((showSlides = n));
-  // }
-
-  /*
-    function slides(n) {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {
-        showSlides = 1;
-      }
-      if (n < 1) {
-        showSlides = slides.length;
-      }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[showSlides - 1].style.display = "block";
-      dots[showSlides - 1].className += " active";
-    }
-  */
+export default function Carousel() {
   return (
-    <div className="carousel">
-      <div className="slideshow-container">
-        <div className="mySlides fade">
-          <div className="numbertext">1 / 3</div>
-          <img src="img_nature_wide.jpg" style="width:100%" />
-          <div className="text">Caption Text</div>
-        </div>
-
-        <div className="mySlides fade">
-          <div className="numbertext">2 / 3</div>
-          <img src="img_snow_wide.jpg" style="width:100%" />
-          <div className="text">Caption Two</div>
-        </div>
-
-        <div className="mySlides fade">
-          <div className="numbertext">3 / 3</div>
-          <img src="img_mountains_wide.jpg" style="width:100%" />
-          <div className="text">Caption Three</div>
-        </div>
-
-        {/* <a class="prev" onClick={minusSlide(-1)}>
-          ❮
-        </a>
-        <a class="next" onClick={plusSlides(1)}>
-          ❯
-        </a> */}
-      </div>
-      <br />
-
-      <div style="text-align:center">
-        {/* <span class="dot" onClick={currentSlide('1')}></span>
-        <span class="dot" onClick={currentSlide('2')}></span>
-        <span class="dot" onClick={currentSlide('3')}></span> */}
-      </div>
-    </div>
+    <>
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <div className="img_container">
+            <div className="carousel_image">
+              <img src={SliderImage1} alt="" className="carouse_img" />
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="img_container">
+            <div className="carousel_image">
+              <img src={SliderImage2} alt="" className="carouse_img" />
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="img_container">
+            <div className="carousel_image">
+              <img src={SliderImage1} alt="" className="carouse_img" />
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="img_container">
+            <div className="carousel_image">
+              <img src={SliderImage3} alt="" className="carouse_img" />
+            </div>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+    </>
   );
-};
-
-export default Carousel;
+}
