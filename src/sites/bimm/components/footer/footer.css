@@ -2,12 +2,12 @@ footer{
     z-index: 1;
     transform:translateY(50px);
     width: 100%;
-    position: relative;
+    /* position: relative; */
     background-image: linear-gradient(to left, green, grey);
 }
 
 .footer_top{
-    
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;

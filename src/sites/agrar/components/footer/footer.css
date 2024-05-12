@@ -1,7 +1,6 @@
 footer{
     transform:translateY(50px);
     width: 100%;
-    position: relative;
     background-image: linear-gradient(to left, green, grey);
 }
 
