@@ -34,7 +34,7 @@ const Navbar = () => {
             >
               <div className="navbar_links">
                 <div className="navbar_links_items">
-                  <Link to="/bimm">
+                  <Link to="https://pet-bimm.vercel.app/">
                     <p>BIMM</p>
                   </Link>
                   <Link to="about">
