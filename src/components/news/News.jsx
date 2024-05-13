@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { getNews } from '../../data/news'
 import './news.css'
 
@@ -14,10 +15,10 @@ const News = () => {
           <div className="news_main_collect_items">
             {
               newImages.map(n=> (
-                <div className="news_item">
+                <div className="news_item" key={n.id} >
                   <img src={n.Image} alt={n.title} className='news_item_img' />
                   <p className='news_item_content'>{n.title}</p>
-                  <button><a href="#">Learn More</a></button>
+                  <button><Link to="#">Learn More</Link></button>
                 </div>
               ))
             }

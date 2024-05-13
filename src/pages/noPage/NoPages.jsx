@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NoPages = () => {
+const NoPage = () => {
   return (
     <div>
       Page not fount
@@ -8,4 +8,4 @@ const NoPages = () => {
   )
 }
 
-export default NoPages
+export default NoPage
