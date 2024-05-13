@@ -41,7 +41,7 @@ const Navbar = () => {
                     <p>About</p>
                   </Link>
                   <div class="navbar_links_dropdown">
-                    <button class="dropbtn">Manbalar</button>
+                    <button class="dropbtn">Resurslar</button>
                     <div class="dropdown-content">
                       <a href="#"> Bosh ilmiy-metodik markaz</a>
                       <a href="#"> Elektron Kutubxona</a>
@@ -50,7 +50,7 @@ const Navbar = () => {
                     </div>
                   </div>
                   <div class="navbar_links_dropdown">
-                    <button class="dropbtn">Narxlar</button>
+                    <button class="dropbtn">Pricing</button>
                     <div class="dropdown-content">
                       <a href="#"> Raxbariyat</a>
                       <a href="#"> Elektron Kutubxona</a>
@@ -58,10 +58,10 @@ const Navbar = () => {
                       <a href="#">Digital Marketing</a>
                     </div>
                   </div>
-                  <Link>
+                  <Link to="/blog">
                     <p>Blog</p>
                   </Link>
-                  <Link>
+                  <Link to="/contact">
                     <p>Contact</p>
                   </Link>
                 </div>
@@ -80,18 +80,18 @@ const Navbar = () => {
                   </form>
                 </div>
                 <div className="navbar_link_icons">
-                  <li>
+                  <Link to="#">
                     <FaFacebookF />
-                  </li>
-                  <li>
+                  </Link>
+                  <Link to="#">
                     <FaTwitter />
-                  </li>
-                  <li>
+                  </Link>
+                  <Link to="#">
                     <FaGooglePlusG />
-                  </li>
-                  <li>
+                  </Link>
+                  <Link to="#">
                     <FaPinterestP />
-                  </li>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -28,6 +28,8 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
+z-index: 2;
+
 }
 
 .navbar_logo:hover {
@@ -83,7 +85,8 @@ nav {
 
 .navbar_links_dropdown:hover .dropdown-content {
   display: block;
-  transform: translate(200px, -44px);
+  position: absolute;
+  padding: 0px;
 }
 
 .navbar_contact_icon_links {
@@ -125,6 +128,10 @@ nav {
 }
 
 @media (max-width: 550px) {
+
+  .navbar_links_dropdown:hover .dropdown-content {
+  transform: translate(100px, -80px);   
+  }
 
   .navbar_links, .navbar_contact_icon_links{
     z-index: 2;

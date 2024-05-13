@@ -1,5 +1,6 @@
 
 .swiper {
+  z-index: 1;
   margin: 10px auto;
   position: relative;
   width: 100%;

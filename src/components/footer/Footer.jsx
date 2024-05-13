@@ -81,9 +81,9 @@ const Footer = () => {
                 </a>
               </div>
               <div className="footer_contact_info_tel">
-                <a href="tel:+998949113133">
+                <a href="tel:+998771000089">
                   <BsTelephoneOutbound />
-                  <span className="footer_contact_info_tel_number">998 94 911 31 33</span>
+                  <span className="footer_contact_info_tel_number">998 77 100 00 89</span>
                 </a>
               </div>
               <form action="#" method="get">

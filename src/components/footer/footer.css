@@ -145,6 +145,7 @@ footer{
 }
 
 .footer_bottom{
+    padding-top: 40px;
     width: 100%;
     position: relative;
     align-items: center;
