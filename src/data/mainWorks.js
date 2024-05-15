@@ -16,37 +16,37 @@ export function getData() {
 		},
         {
 			id: 2,
-			title: 'Agromaslaxatlar',
+			title: 'Xalqaro grandlar',
 			Image: catalogImage2
 		},
         {
 			id: 3,
-			title: 'Agromaslaxatlar',
+			title: 'Statistika malumotlari',
 			Image: catalogImage3
 		},
         {
 			id: 4,
-			title: 'Agromaslaxatlar',
+			title: 'xalqaro kreditlar',
 			Image: catalogImage4
 		},
         {
 			id: 5,
-			title: 'Agromaslaxatlar',
+			title: 'Agroklinika',
 			Image: catalogImage5
 		},
         {
 			id: 6,
-			title: 'Agromaslaxatlar',
+			title: "Bo'sh ish o'rinlari ",
 			Image: catalogImage6
 		},
         {
 			id: 7,
-			title: 'Agromaslaxatlar',
+			title: 'online ariza topshirish',
 			Image: catalogImage7
 		},
         {
 			id: 8,
-			title: 'Agromaslaxatlar',
+			title: "Ilm-fan va ta'lim",
 			Image: catalogImage8
 		},
 
