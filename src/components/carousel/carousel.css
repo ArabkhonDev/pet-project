@@ -21,10 +21,17 @@
 .swiper-slide img {
   display: block;
   width: 500px;
+  min-width: 300px;
   height: 100%;
   object-fit: cover;
 }
 
 .carouse_img{
   width: 500px;
+}
+
+@media screen and (min-width: 550){
+.swiper-slide img{
+  width: 300px;
+}
 }
