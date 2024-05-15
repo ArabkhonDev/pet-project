@@ -26,7 +26,7 @@ const Navbar = () => {
           <div className="nav_main">
             <div className="navbar_logo">
               <Link to="/">
-                <span>Agrar Universitet</span>
+                <span>Agrar Malaka</span>
               </Link>
             </div>
             <div
